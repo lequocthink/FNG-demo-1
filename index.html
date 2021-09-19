@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/CSS/main.css">
+    <link rel="stylesheet" href="./assets/CSS/base.css">
+    <!-- Icon Title -->
+    <link rel="icon" href="./assets/img/FNG-logo-N.png" type="image/x-icon" />
+    <title>FNG Demo 1</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Header -->
+        <div class="header">
+            <div class="grid header-nav">
+                <div class="header-logo">
+                    <a href="#">
+                        <img src="./assets/img/FNG-logo.png" alt="" class="logo-fng">
+                    </a>
+                </div>
+
+                <!-- search -->
+                <div class="header-search">
+                    <i class="search-icon ti-search"></i>
+                    <input type="text">
+                </div>
+                <!-- Begin: Nav -->
+                <div class="nav-icon">
+                    <i class="ti-align-justify"></i>
+                </div>
+                <ul id = "nav">
+                    <li>
+                        <a href="#">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#theme">
+                            Theme
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#services">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#team">
+                            Team
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+    
+                <!-- End: Nav -->
+
+            </div>
+
+        </div>
+
+        <!-- Slider -->
+        <div class="slider">
+            <div class="slider-content">
+                <div class = "grid slider-text">
+                    <h1>
+                        A Brilliant Theme
+                    </h1>
+                    <p>
+                        Add your best content here! 
+                        <br/>
+                        Make your site stand out above the rest by taking advantage of smooth transition effects and an elegant design.
+                    </p>
+
+                    <div class="btn-add-content">
+                        <a href="#">
+                            add content
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slider-btn">
+                    <div class="dot" onclick="currentSlide(1)"></div>
+                    <div class="dot" onclick="currentSlide(2)"></div>
+                    <div class="dot" onclick="currentSlide(3)"></div>
+                    <div class="dot" onclick="currentSlide(4)"></div>
+                    <div class="dot" onclick="currentSlide(5)"></div>
+                    
+                </div>
+                <div class="prev" onclick="plusSlides(-1)">
+                    <i class="ti-angle-left"></i>
+                </div>
+                <div class="next" onclick="plusSlides(1)">
+                    <i class="ti-angle-right"></i>
+                </div>
+            </div>
+            
+            <img src="./assets/img/img-1.jpg" alt="slider img" class = "mySlide" >
+            <img src="./assets/img/img-2.jpg" alt="slider img" class = "mySlide" >
+            <img src="./assets/img/img-3.jpg" alt="slider img" class = "mySlide" >
+            <img src="./assets/img/img-4.jpg" alt="slider img" class = "mySlide" >
+            <img src="./assets/img/img-5.jpg" alt="slider img" class = "mySlide" >
+            
+        </div>
+
+        <!-- About -->
+        <div id="about">
+            <div class="grid">
+                <h2 class="about-title">
+                    About
+                </h2>
+
+                <p class="about-text">
+                    It is an amazng one-page theme with great features that offers an incredible experience. It is easy to install, make changes, adapt for your business. A modern design with clean lines and styling for a wide variety of content, exactly how a business design should be. 
+                </p>
+                <img src="./assets/img/img-6.jpg" alt="img6" class = "about-img">
+            </div>
+        </div>
+
+
+        <!-- Theme -->
+        <div id="theme">
+            <div class="grid">
+                <h2 class = "theme-title">
+                    View Our Theme
+                </h2>
+                <div class="themes">
+                    <div class="theme-mountain">
+                        <img src="./assets/img/theme-mountain.jpg" alt="theme mountain" class = "theme-mountain-img">
+                        <p class = "theme-mountain-text">
+                            Mountain
+                        </p>
+
+                    </div>
+                    <div class="theme-forest">
+                        <img src="./assets/img/theme-forest.jpg" alt="theme mountain" class = "theme-forest-img">
+                        <p class = "theme-forest-text">
+                            Forest
+                        </p>
+                    </div>
+                    <div class="theme-beach">
+                        <img src="./assets/img/theme-beach.jpg" alt="theme mountain" class = "theme-beach-img">
+                        <p class = "theme-beach-text">
+                            beach
+                        </p>
+                    </div>
+                    <div class="theme-meadow">
+                        <img src="./assets/img/theme-meadow.jpg" alt="theme mountain" class = "theme-meadow-img">
+                        <p class = "theme-meadow-text">
+                            meadow
+                        </p>
+                    </div>
+                    <div class="theme-city">
+                        <img src="./assets/img/theme-city.jpg" alt="theme mountain" class = "theme-city-img">
+                        <p class = "theme-city-text">
+                            city
+                        </p>
+                    </div>
+                    <div class="theme-countryside">
+                        <img src="./assets/img/theme-countryside.jpg" alt="theme mountain" class = "theme-countryside-img">
+                        <p class = "theme-countryside-text">
+                            countryside
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services -->
+
+        <div id="services">
+            <div class="grid">
+                <h2 class = "services-title">
+                    View Our Services
+                </h2>
+                <div class="services-content">
+                    <div class="services-content-1">
+                        <i class="services-content-icon ti-settings"></i>
+                        <p>
+                            Multipurpose Design
+                        </p>
+                        
+                    </div>
+                    <div class="services-content-2">
+                        <i class="services-content-icon ti-pencil-alt"></i>
+                        <p>
+                            Beautifully Designed
+                        </p>
+                        
+                    </div>
+                    <div class="services-content-3">
+                        <i class="services-content-icon ti-face-smile"></i>
+                        <p>
+                            Compatible with Any Device
+                        </p>
+                    </div>
+                    <div class="services-content-4">
+                        <i class="services-content-icon ti-bar-chart-alt"></i>
+                        <p>
+                            Clean And Modern
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+
+        <div id = "portfolio">
+            <div class="grid">
+                <p class="portfolio-title">
+                    My Portfolio
+                </p>
+                <p class="portfolio-text">
+                    Thanks for taking some time to visit FNG portfolio. Here you will be able to find my latest and favorite works.
+                </p>
+                <div class="portfolio-social">
+                    <i class="ti-instagram"></i>
+                    <i class="ti-facebook"></i>
+                    <i class="ti-pinterest-alt"></i>
+                    <i class="ti-twitter"></i>
+                    <i class="ti-youtube"></i>
+                    <i class="ti-apple"></i>
+                    <i class="ti-microsoft-alt"></i>
+                    <i class="ti-google"></i>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Team -->
+
+        <div id="team">
+            <div class="grid">
+                <p class="team-title">
+                    Team
+                </p>
+                <div class="team-member">
+                    <div class="">
+                        <div class="team-member-1">
+                            <img src="./assets/img/member-1.jpg" alt="Quốc Thịnh">
+                            <div class="team-member-socials-1">
+                                <i class="team-member-social-1 ti-facebook"></i>
+                                <i class="team-member-social-2 ti-instagram"></i>
+                                <i class="team-member-social-3 ti-linkedin"></i>
+                            </div>
+                        </div>
+                        <div class="team-member-name">
+                            Quốc Thịnh
+                        </div>
+                        <div class="team-member-1-position">
+                            Coder
+                        </div>
+
+                    </div>
+                    <div class="">
+                        <div class="team-member-2">
+                            <img src="./assets/img/member-2.jpg" alt="Thịnh Wibu">
+                            <div class="team-member-socials-2">
+                                <i class="team-member-social-1 ti-facebook"></i>
+                                <i class="team-member-social-2 ti-instagram"></i>
+                                <i class="team-member-social-3 ti-linkedin"></i>
+                            </div>
+                            
+                        </div>
+                        <div class="team-member-name">
+                            Thịnh Wibu
+                        </div>
+                        <div class="team-member-2-position">
+                            Leader
+                        </div>
+
+                    </div>
+                    <div class="">
+                        <div class="team-member-3">
+                            <img src="./assets/img/member-3.jpg" alt="Thịnh trẻ trâu">
+                            <div class="team-member-socials-3">
+                                <i class="team-member-social-1 ti-facebook"></i>
+                                <i class="team-member-social-2 ti-instagram"></i>
+                                <i class="team-member-social-3 ti-linkedin"></i>
+                            </div>
+                            
+                        </div>
+                        <div class="team-member-name">
+                            Thịnh Trẻ Trâu
+                        </div>
+                        <div class="team-member-3-position">
+                            Designer
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+        <div id="contact">
+            <div class="contact-size">
+                <p class="contact-title">
+                    Contact
+                </p>
+                <div class="contact-content">
+                    <div class="contact-content-text">
+                        <p>
+                            <i class="ti-location-pin"></i>
+                            From : Sóc Trăng City
+                        </p>
+                        <p>
+                            <i class="ti-email"></i>
+                            Email : Email@gmail.com
+                        </p>
+                        <p>
+                            <i class="ti-mobile"></i>
+                            Phone : +84 123456789
+                        </p>
+
+                    </div>
+                    <form class="contact-content-form">
+                        <input type="text" required placeholder="Name">
+                        <input type="email" required placeholder="Email">
+                        <input type="text" required placeholder="Message">
+                        <input class = "contact-button" type="submit" value = "SEND">
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+            <div class="grid">
+                <div class="footer-content">
+                    <img src="/assets/img/FNG-logo.png" alt="" class = "footer-content-logo">
+                    <p class = "footer-content-text">
+                        Sometimes the questions are complicated and the answers are simple 
+                    </p>
+                    
+                    <div class="footer-content-social">
+                        <i class="ti-instagram"></i>
+                        <i class="ti-facebook"></i>
+                        <i class="ti-pinterest-alt"></i>
+                        <i class="ti-twitter"></i>
+                        <i class="ti-youtube"></i>
+                        <i class="ti-apple"></i>
+                        <i class="ti-microsoft-alt"></i>
+                        <i class="ti-google"></i>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        
+    </div>
+
+    <!-- navigation mobile -->
+
+    <div id="" class = "nav-mobile  js-nav-mobile">
+        <div class="nav-mb js-nav-container">
+            <div class="nav-close">
+                <i id = "x" class="ti-close"></i>
+
+            </div>
+            <div class="nav-mb-search">
+                <i class="ti-search"></i>
+                <input type="text">
+            </div>
+            <ul id = "">
+                <li>
+                    <a href="#">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#theme">
+                        Theme
+                    </a>
+                </li>
+                <li>
+                    <a href="#services">
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="#team">
+                        Team
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    
+    <script src = "./assets/js/main.js" ></script>
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        // Nếu thanh roll ko nằm trên Top thì đổi class header-nav thành header-nav-new
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop()) {
+                    $('.header').addClass('header-nav-new');
+                }
+                else {
+                    $('.header').removeClass('header-nav-new');
+                }
+
+            });
+        });
+    </script>
+</body>
+
+
+</html>
