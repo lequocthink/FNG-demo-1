@@ -209,12 +209,12 @@ html {
     .team-member-1-position,
     .team-member-2-position,
     .team-member-3-position {
-        width: 80px;
+        width: 100px;
         height: 40px;
         margin: 10px;
         font-size: 20px;
         line-height: 40px;
-        transform: translateX(90%);
+        transform: translateX(65%);
     }
 
     .team-member-social-1,
@@ -470,12 +470,12 @@ html {
     .team-member-1-position,
     .team-member-2-position,
     .team-member-3-position {
-        width: 80px;
+        width: 100px;
         height: 40px;
         margin: 10px;
         font-size: 20px;
         line-height: 40px;
-        transform: translateX(125%);
+        transform: translateX(90%);
     }
 
     .team-member-social-1,
