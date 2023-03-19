@@ -3,7 +3,7 @@
 
 ## Mô tả:
 
-Đây là project đầu tiên của tôi khi mới bắt đầu học web, project này chỉ áp dụng những kiến thức cơ bản như: `HTML`, `CSS`, `Javascript`, `responsive web`, `Git` và `Github`
+Đây là project đầu tiên của tôi khi mới bắt đầu học web, project này chỉ áp dụng những kiến thức cơ bản như: `HTML`, `CSS`, `Javascript`, `Jquery`, `responsive web`, `Git` và `Github`
 
 ## Link Demo
 
